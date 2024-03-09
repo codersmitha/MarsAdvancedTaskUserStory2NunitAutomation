@@ -1,0 +1,1671 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">5/03/2024 9:52:55 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>  <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestDeleteAllSkillRecords</p>
+            <p class="text-sm">
+              <span>9:53:03 AM</span> / <span>4323.52 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestDeleteAllSkillRecords</h5>
+                  <span class='badge badge-success'>5/03/2024 9:53:03 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:53:08 AM</span>
+                  <span class='badge badge-default'>4323.52 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_53_07.png' src="Screenshots\\Screenshot_9_53_07.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateNewSkillRecord</p>
+            <p class="text-sm">
+              <span>9:53:27 AM</span> / <span>8213.44 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestCreateNewSkillRecord</h5>
+                  <span class='badge badge-success'>5/03/2024 9:53:27 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:53:35 AM</span>
+                  <span class='badge badge-default'>8213.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_53_35.png' src="Screenshots\\Screenshot_9_53_35.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53 AM</td>
+        <td>
+Test ended with Fail   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.CapturePopupMessage() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 35
+   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.AddNewSkill(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 61
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestCreateNewSkillRecord() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 65        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateNewSkillRecordWithAllNullData</p>
+            <p class="text-sm">
+              <span>9:53:45 AM</span> / <span>7800.46 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateNewSkillRecordWithAllNullData</h5>
+                  <span class='badge badge-success'>5/03/2024 9:53:45 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:53:53 AM</span>
+                  <span class='badge badge-default'>7800.46 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_53_53.png' src="Screenshots\\Screenshot_9_53_53.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateNewSkillRecordWithLevelNotSelected</p>
+            <p class="text-sm">
+              <span>9:54:03 AM</span> / <span>7865.38 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateNewSkillRecordWithLevelNotSelected</h5>
+                  <span class='badge badge-success'>5/03/2024 9:54:03 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:54:11 AM</span>
+                  <span class='badge badge-default'>7865.38 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_54_11.png' src="Screenshots\\Screenshot_9_54_11.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateNewSkillRecordWithValidLevelAndEmptyTextBox</p>
+            <p class="text-sm">
+              <span>9:54:21 AM</span> / <span>8015.12 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateNewSkillRecordWithValidLevelAndEmptyTextBox</h5>
+                  <span class='badge badge-success'>5/03/2024 9:54:21 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:54:29 AM</span>
+                  <span class='badge badge-default'>8015.12 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_54_29.png' src="Screenshots\\Screenshot_9_54_29.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateAlreadyExistingSkillRecord</p>
+            <p class="text-sm">
+              <span>9:54:40 AM</span> / <span>8179.44 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestCreateAlreadyExistingSkillRecord</h5>
+                  <span class='badge badge-success'>5/03/2024 9:54:40 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:54:48 AM</span>
+                  <span class='badge badge-default'>8179.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_54_48.png' src="Screenshots\\Screenshot_9_54_48.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:54 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:54 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:54 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.AddAlreadyExistingSkillRecord(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 117
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestCreateAlreadyExistingSkillRecord() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 93
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateDuplicateSkillWithDifferentLevel</p>
+            <p class="text-sm">
+              <span>9:54:58 AM</span> / <span>8575.21 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateDuplicateSkillWithDifferentLevel</h5>
+                  <span class='badge badge-success'>5/03/2024 9:54:58 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:55:07 AM</span>
+                  <span class='badge badge-default'>8575.21 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_55_07.png' src="Screenshots\\Screenshot_9_55_07.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateSkillRecordWithSpecialCharactersAndNumbers</p>
+            <p class="text-sm">
+              <span>9:55:18 AM</span> / <span>8249.18 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateSkillRecordWithSpecialCharactersAndNumbers</h5>
+                  <span class='badge badge-success'>5/03/2024 9:55:18 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:55:26 AM</span>
+                  <span class='badge badge-default'>8249.18 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_55_26.png' src="Screenshots\\Screenshot_9_55_26.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateSkillRecordWithlLongName</p>
+            <p class="text-sm">
+              <span>9:55:39 AM</span> / <span>10640.65 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateSkillRecordWithlLongName</h5>
+                  <span class='badge badge-success'>5/03/2024 9:55:39 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:55:49 AM</span>
+                  <span class='badge badge-default'>10640.65 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_55_49.png' src="Screenshots\\Screenshot_9_55_49.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCreateLanguageRecordWithOnlySpacesInSkillTextBox</p>
+            <p class="text-sm">
+              <span>9:56:00 AM</span> / <span>8130.11 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCreateLanguageRecordWithOnlySpacesInSkillTextBox</h5>
+                  <span class='badge badge-success'>5/03/2024 9:56:00 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:56:08 AM</span>
+                  <span class='badge badge-default'>8130.11 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_56_08.png' src="Screenshots\\Screenshot_9_56_08.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCancelAddSkillRecord</p>
+            <p class="text-sm">
+              <span>9:56:19 AM</span> / <span>9225.2 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCancelAddSkillRecord</h5>
+                  <span class='badge badge-success'>5/03/2024 9:56:19 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:56:28 AM</span>
+                  <span class='badge badge-default'>9225.2 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_56_28.png' src="Screenshots\\Screenshot_9_56_28.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithBothFieldsEdited</p>
+            <p class="text-sm">
+              <span>9:56:40 AM</span> / <span>8460.04 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestUpdateSkillRecordWithBothFieldsEdited</h5>
+                  <span class='badge badge-success'>5/03/2024 9:56:40 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:56:48 AM</span>
+                  <span class='badge badge-default'>8460.04 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_56_48.png' src="Screenshots\\Screenshot_9_56_48.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithNoFieldsEdited</p>
+            <p class="text-sm">
+              <span>9:57:00 AM</span> / <span>5799.12 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestUpdateSkillRecordWithNoFieldsEdited</h5>
+                  <span class='badge badge-success'>5/03/2024 9:57:00 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:57:05 AM</span>
+                  <span class='badge badge-default'>5799.12 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_57_05.png' src="Screenshots\\Screenshot_9_57_05.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithAllNullData</p>
+            <p class="text-sm">
+              <span>9:57:17 AM</span> / <span>8849.03 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestUpdateSkillRecordWithAllNullData</h5>
+                  <span class='badge badge-success'>5/03/2024 9:57:17 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:57:26 AM</span>
+                  <span class='badge badge-default'>8849.03 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_57_25.png' src="Screenshots\\Screenshot_9_57_25.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithValidLevelAndEmptyTextBox</p>
+            <p class="text-sm">
+              <span>9:57:37 AM</span> / <span>8482.49 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestUpdateSkillRecordWithValidLevelAndEmptyTextBox</h5>
+                  <span class='badge badge-success'>5/03/2024 9:57:37 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:57:45 AM</span>
+                  <span class='badge badge-default'>8482.49 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_57_45.png' src="Screenshots\\Screenshot_9_57_45.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithoutSelectingLevel</p>
+            <p class="text-sm">
+              <span>9:57:56 AM</span> / <span>8335.13 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateSkillRecordWithoutSelectingLevel</h5>
+                  <span class='badge badge-success'>5/03/2024 9:57:56 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:58:05 AM</span>
+                  <span class='badge badge-default'>8335.13 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_58_04.png' src="Screenshots\\Screenshot_9_58_04.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateSkillRecordWithInsufficientData(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 214
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateSkillRecordWithoutSelectingLevel() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 164
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordByChangingOnlySkill</p>
+            <p class="text-sm">
+              <span>9:58:18 AM</span> / <span>8043.14 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateSkillRecordByChangingOnlySkill</h5>
+                  <span class='badge badge-success'>5/03/2024 9:58:18 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:58:26 AM</span>
+                  <span class='badge badge-default'>8043.14 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_58_26.png' src="Screenshots\\Screenshot_9_58_26.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithFieldsEdited(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 189
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateSkillRecordByChangingOnlySkill() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 172
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordByChangingOnlyLevel</p>
+            <p class="text-sm">
+              <span>9:58:37 AM</span> / <span>8230.96 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestUpdateSkillRecordByChangingOnlyLevel</h5>
+                  <span class='badge badge-success'>5/03/2024 9:58:37 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:58:45 AM</span>
+                  <span class='badge badge-default'>8230.96 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_58_45.png' src="Screenshots\\Screenshot_9_58_45.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithExistingSkillName</p>
+            <p class="text-sm">
+              <span>9:58:56 AM</span> / <span>14081.89 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateSkillRecordWithExistingSkillName</h5>
+                  <span class='badge badge-success'>5/03/2024 9:58:56 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:59:10 AM</span>
+                  <span class='badge badge-default'>14081.89 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_59_10.png' src="Screenshots\\Screenshot_9_59_10.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithFieldsEdited(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 189
+   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithExistingSkillName(SkillsDataModel skillsDM1, SkillsDataModel skillsDM2) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 228
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateSkillRecordWithExistingSkillName() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 188
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithSpecialCharacters</p>
+            <p class="text-sm">
+              <span>9:59:21 AM</span> / <span>8135.1 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateSkillRecordWithSpecialCharacters</h5>
+                  <span class='badge badge-success'>5/03/2024 9:59:21 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:59:29 AM</span>
+                  <span class='badge badge-default'>8135.1 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_59_29.png' src="Screenshots\\Screenshot_9_59_29.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithFieldsEdited(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 189
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateSkillRecordWithSpecialCharacters() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 196
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateLanguageRecordWithLongLanguageName</p>
+            <p class="text-sm">
+              <span>9:59:40 AM</span> / <span>8122.12 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateLanguageRecordWithLongLanguageName</h5>
+                  <span class='badge badge-success'>5/03/2024 9:59:40 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 9:59:48 AM</span>
+                  <span class='badge badge-default'>8122.12 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_9_59_48.png' src="Screenshots\\Screenshot_9_59_48.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:59 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithFieldsEdited(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 189
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateLanguageRecordWithLongLanguageName() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 204
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestUpdateSkillRecordWithOnlySpacesInSkill</p>
+            <p class="text-sm">
+              <span>10:00:00 AM</span> / <span>8118.27 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">TestUpdateSkillRecordWithOnlySpacesInSkill</h5>
+                  <span class='badge badge-success'>5/03/2024 10:00:00 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 10:00:08 AM</span>
+                  <span class='badge badge-default'>8118.27 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_10_00_08.png' src="Screenshots\\Screenshot_10_00_08.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:00 AM</td>
+        <td>
+Fail        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:00 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:00 AM</td>
+        <td>
+Test ended with Fail   at AdvancedTaskUserStory2NunitAutomation.Pages.ProfileOverview.ProfileNavigationMenuComponent.SkillspageFeatures.UpdateExistingSkillRecordWithFieldsEdited(SkillsDataModel skillsDataModel) in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Pages\ProfileOverview\ProfileNavigationMenuComponent\SkillspageFeatures.cs:line 189
+   at AdvancedTaskUserStory2NunitAutomation.Test.SkillsTest.TestUpdateSkillRecordWithOnlySpacesInSkill() in C:\Users\mohan\OneDrive\Desktop\Smitha\AdvancedTask\MarsAdvancedTaskUserStory2NunitAutomation\AdvancedTaskUserStory2NunitAutomation\Test\SkillsTest.cs:line 213
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCancelUpdateSkillRecord</p>
+            <p class="text-sm">
+              <span>10:00:19 AM</span> / <span>9127.92 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCancelUpdateSkillRecord</h5>
+                  <span class='badge badge-success'>5/03/2024 10:00:19 AM</span>
+                  <span class='badge badge-danger'>5/03/2024 10:00:28 AM</span>
+                  <span class='badge badge-default'>9127.92 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Screenshots\\Screenshot_10_00_28.png' src="Screenshots\\Screenshot_10_00_28.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00 AM</td>
+        <td>
+Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00 AM</td>
+        <td>
+Snapshot below: AventStack.ExtentReports.ExtentTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>5/03/2024 9:52:55 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>5/03/2024 10:00:28 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>15</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>8</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'>
+            <b>15</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>8</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>45</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>24</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "TestDeleteAllSkillRecords":4323.5228,"TestCreateNewSkillRecord":8213.4424,"TestCreateNewSkillRecordWithAllNullData":7800.4573,"TestCreateNewSkillRecordWithLevelNotSelected":7865.3818,"TestCreateNewSkillRecordWithValidLevelAndEmptyTextBox":8015.1226,"TestCreateAlreadyExistingSkillRecord":8179.4379,"TestCreateDuplicateSkillWithDifferentLevel":8575.2138,"TestCreateSkillRecordWithSpecialCharactersAndNumbers":8249.1762,"TestCreateSkillRecordWithlLongName":10640.6495,"TestCreateLanguageRecordWithOnlySpacesInSkillTextBox":8130.1123,"TestCancelAddSkillRecord":9225.1965,"TestUpdateSkillRecordWithBothFieldsEdited":8460.0351,"TestUpdateSkillRecordWithNoFieldsEdited":5799.1239,"TestUpdateSkillRecordWithAllNullData":8849.0315,"TestUpdateSkillRecordWithValidLevelAndEmptyTextBox":8482.4896,"TestUpdateSkillRecordWithoutSelectingLevel":8335.1317,"TestUpdateSkillRecordByChangingOnlySkill":8043.1431,"TestUpdateSkillRecordByChangingOnlyLevel":8230.9591,"TestUpdateSkillRecordWithExistingSkillName":14081.888,"TestUpdateSkillRecordWithSpecialCharacters":8135.1037,"TestUpdateLanguageRecordWithLongLanguageName":8122.1197,"TestUpdateSkillRecordWithOnlySpacesInSkill":8118.2656,"TestCancelUpdateSkillRecord":9127.9169 };
+  </script>
+  <div class="row">
+      <div class="col-md-4 sysenv-container">
+      <div class="card">
+        <div class="card-header"><p>System/Environment</p></div>
+        <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+          <thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Host Name</td>
+              <td>LocalHost</td>
+            </tr>
+            <tr>
+              <td>Environment</td>
+              <td>QA</td>
+            </tr>
+            <tr>
+              <td>UserName</td>
+              <td>MarsTester</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 23,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 69,
+
+passParent:15,failParent:8,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:45,failEvents:24,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
